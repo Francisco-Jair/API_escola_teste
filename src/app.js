@@ -16,5 +16,4 @@ app.use('/turmas', turmas_rotas)
 app.use('/aulas', aulas_rotas)
 app.use('/disciplinas', disciplina_rotas)
 
-
 module.exports = app
