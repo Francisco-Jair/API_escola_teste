@@ -1,5 +1,7 @@
 const express = require('express')
+const bodyParser = require('body-parser');
 const app = express()
+
 
 const users_rotas = require('./routers/users_routers')
 
