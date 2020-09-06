@@ -4,7 +4,7 @@ exports.up = function (knex) {
         table.increments('id')
         table.text('nome')
         table.text('email')
-        table.integer('nome')
+        table.integer('tipo')//1 - Prof | 0 - Aluno
 
         table.timestamp('created_at').defaultTo(knex.fn.now())
         table.timestamp('updated_at').defaultTo(knex.fn.now())
